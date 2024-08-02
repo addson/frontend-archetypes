@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    position: relative; /* c2 */
+}
+
+.c1 {
+    color: white;
+    line-height: 150px; /* alinhamento vertical usando line-height */
+}
+
+.c2 {
+    color: white;
+    position: absolute; /* alinhamento vertical usando posision */
+    top: 50%;
+    left: 50%;
+    /* compensa a metade da altura e da largura ja ocupada pela div*/
+    transform: translate(-50%, -50%); 
+    display: block;
+}
+
+.c3 {
+    color: white;
+    padding-left: 100px; /* alinhamento vertical usando padding */
+    padding-right: 100px;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+
+.azul {
+    background-color: darkblue;
+}
+
+.vinho {
+    background-color: brown;
+}
+
+.cinza {
+    background-color: gray;
+}

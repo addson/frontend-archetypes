@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>04 DOM Events</title>
+
+    <style>
+
+    </style>
+
+</head>
+<body onload="console.log('TODA A PAGINA CARREGADA...')">
+    <h1>04 DOM Events</h1>
+
+    <h3 onclick="console.log('h3 clicado usando comandos js no evento onclick...')">
+        Clique aqui e chame COMANDOS js...
+    </h3>
+
+    <h3 onclick="h3Click()">
+        Clique aqui e chame FUNÇÕES js...
+    </h3>
+
+    <h3 onclick="console.log(this)">
+        Clique aqui e PASSE O THIS no evento onclick...
+    </h3>
+
+    <h3 onclick="this.style.color = 'red'">
+        Clique aqui e mude o style desta tag html...
+    </h3>
+
+    <h3 style="display: inline">
+        testando onchange...
+    </h3>
+    <input id="i1" type="text" onchange="changeH3Feio()" placeholder="digite qualquer coisa...">
+    <input type="text" onchange="changeH3Bonito(this)" placeholder="digite qualquer coisa...">
+
+    <br>
+    <h3 style="display: inline">
+        testando oninput...
+    </h3>
+    <input type="text" oninput="changeH3Automatico(this)" placeholder="digite qualquer coisa...">
+
+    <br>
+    <h3 style="display: inline" onmouseover="onOver(this)" onmouseout="onOut(this)">
+        testando onmouseover...
+    </h3>
+
+    <br>
+    <h3 style="display: inline" onmouseover="onOverRefFuncJs(this)" onmouseout="onOutRefFuncJs(this)">
+        clique aqui e teste a chamada função por referência dentro do js...
+    </h3>
+
+    <br>
+    <h3 style="display: inline" onmouseover="onOverEventListenerJs(this)" onmouseout="onOutEventListenerJs(this)">
+        clique aqui e teste eventListener dentro do js...
+    </h3>
+
+    <br>
+    <h3 style="display: inline" >
+        clique aqui em baixo em (A) ou (B) e teste o this ajudando a chamar o mesmo método em dois componentes diferentes...
+    </h3>
+    <br>
+    <span  style="display: inline" onclick="changeColor(this)" onmouseout="resetColor(this)">
+       <b>Clique Aqui >> (A)</b> 
+    </span>
+       -    
+    <span  style="display: inline" onclick="changeColor(this)"onmouseout="resetColor(this)">
+       <b>Clique Aqui >> (B)</b>
+    </span>
+
+    <br>
+    <h3 style="display: inline" onmouseover="onOverEventListenerJs2(this)" onmouseout="onOutEventListenerJs2(this)">
+        clique aqui e teste onClick via event.target do addEventListener dentro do js...
+    </h3>
+
+    <br>
+    <table><tr>
+        <td><h3>testando onload...</h3></td>
+        <td><img style="display: inline; width: 50px;" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt=""></td>
+        <td> >> desabilite o cache, mude a rede para slow 3g na aba Network da inspeção, <br>
+            >> de um reload da página e monitore a saida do console para testar o body onload...</td>
+    </tr></table>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>

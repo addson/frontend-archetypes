@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>10 Atributos Personalizados</title>
+
+    <style>
+
+        .on {
+            background-color: green;
+            color: white;
+            font-size: 20px;
+        }
+
+        .off {
+            background-color: gainsboro;
+            color: black;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>10 Atributos Personalizados</h1>
+
+    <h3 style="display: inline;">propriedades default... </h3>
+    <input id="bt" onload="onLoadPropsDefault(this)" 
+        onclick="ligaDesligaPropsDefault(this)" 
+        type="button" value="OFF"
+        style="font-size: 20px; 
+                    color: black; 
+                    background-color: gainsboro;">
+
+    <br>
+    <h3 style="display: inline;">setAttribute existente </h3>
+    <input id="bt" onload="onLoadSetAttribute(this)" 
+        onclick="ligaDesligaSetAttribute(this)" 
+        type="button" value="OFF"
+        class="off">
+
+    <br>
+    <h3 style="display: inline;">setAttribute novo (fator)... </h3>
+    <ul id="lista" fator="2"></ul>
+    <input type="text" id="inqtd" size="5" placeholder="Número">
+    <input id="bt" onclick="criaLista(this)" 
+        type="button" value="Calcula Lista" class="off">
+    <br><h4 style="display: inline;" id="h4"></h4>
+
+    <!-- ao inves de usar setAttribute e getAttribute, e poderia 
+    passar esse novo atributo com o nome padronizado
+    "data-atributo" e depois buscar esse valor com 
+    "element.dataset.atributo" -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

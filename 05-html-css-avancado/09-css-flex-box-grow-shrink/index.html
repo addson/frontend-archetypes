@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>08 - FlexBox Grow and Shrink no CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="h1">
+        08 - FlexBox Grow and Shrink no CSS que torna os elementos filhos flexíveis
+    </h1>
+
+    <h2>flex-grow: 3; - o elemento 3 aumenta em 2 vezes o tamanho dos demais</h2>
+    <div class="container">
+        <div class="parte p1">PARTE 1</div>
+        <div class="parte p2">PARTE 2</div>
+        <div class="parte p3-grow">PARTE 3</div>
+        <div class="parte p1">PARTE 4</div>
+        <div class="parte p2">PARTE 5</div>
+    </div>
+
+    <h2>flex-shrink: 0; 0 - o elemento 3 NÃO pode encoler</h2>
+    <div class="container">
+        <div class="parte p1">PARTE 1</div>
+        <div class="parte p2">PARTE 2</div>
+        <div class="parte p3-shrink">PARTE 3</div>
+        <div class="parte p1">PARTE 4</div>
+        <div class="parte p2">PARTE 5</div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

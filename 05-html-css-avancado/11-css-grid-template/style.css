@@ -1,0 +1,44 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    /* padding: 1px; */
+    /* margin: 1px; */
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    background-color: red;
+}
+
+.p2 {
+    background-color: blue;
+}
+
+.p3 {
+    background-color: darkcyan;
+}
+
+
+.container {
+
+    padding: 10px;
+    background-color: darkgray;
+
+    display: grid;
+    color: white;
+
+    grid-template-rows: 30px 80px;
+    grid-template-columns: 15% auto 35%;
+    /* ou */
+    /* grid-template: 30px 80px / 15% auto 35%; */
+
+    row-gap: 10px;
+    column-gap: 10px;
+   
+}
+
+

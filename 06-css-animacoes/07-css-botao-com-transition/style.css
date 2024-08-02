@@ -1,0 +1,35 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    /* padding: 1px; */
+    /* margin: 1px; */
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao {
+
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    /* injetando a transition no botao*/
+    transition-property: background-color, width;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    
+}
+
+.botao:hover {
+    background-color: blue; width: 250px;
+}
+

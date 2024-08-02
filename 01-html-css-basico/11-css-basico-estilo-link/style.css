@@ -1,0 +1,32 @@
+
+body {
+    margin: 10;
+    padding: 10;
+}
+
+
+.link {
+    text-decoration: none;
+    color: red;
+    cursor: crosshair;
+    padding: 5px;
+    border-radius: 7px;
+    border: 2px solid red;
+}
+
+.link:visited {
+    color: royalblue;
+    border: royalblue;
+    text-decoration: line-through;
+}
+
+.link:hover {
+    background: red;
+    color: white;
+}
+
+.link:active {
+    background: royalblue;
+    color: white;
+    border: royalblue;
+}

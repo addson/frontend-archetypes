@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>05 DOM Children and Parents</title>
+
+    <style>
+        div {
+            padding: 10px;
+            margin: 0px;
+            border: 0px;
+        }
+
+        div {
+            background-color: blue  ;
+        }
+
+        h1 {
+            background-color: red;
+        }
+
+        p {
+            background-color: palegoldenrod;
+        }
+    </style>
+
+</head>
+
+<body onload="callTheEnd();">
+
+    <div id="d1">
+        <h1 id="h1">005 DOM Children and Parents</h1>
+        <p id="p1">
+            Clique na área azul e veja no console os filhos da div, 
+            ou clique na área vermelha e veja o pai do h1.
+        </p>
+    </div>
+
+    <div id="d2">
+        <h1 id="h2">Segundo Título</h1>
+        <p id="p2">
+            Clique na área azul e veja no console os filhos da div, 
+            ou clique na área vermelha e veja o pai do h1.
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

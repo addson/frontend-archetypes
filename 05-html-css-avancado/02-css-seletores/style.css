@@ -1,0 +1,91 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* seletor de tag */
+body {
+    /* font-size: 1.1rem; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* . é o seletor de classe */
+.h1 {
+    text-decoration: underline;
+}
+
+/* # é o seletor de id */
+#d1 {
+    background-color: aqua;
+}
+
+ul {
+    border-left-style: solid;
+    border-left-color: blue;
+}
+
+/* seletores tags entre vírgula seleciona todas tags encontradas na página */
+ul, li {
+    list-style-type: none;
+    color: gray;
+}
+
+/* seletores tags entre espaço seleciona todas tags encontradas na página,
+    que estão dentro da tag anterior. Poderíamos usar qualquer tipo de seletor anterior.
+    Como ponto para selecionar, ou uma classe ou # para selecionar um id */
+ul h1 {
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+}
+
+/* seletores tags entre > seleciona todas tags encontradas na página,
+    que são filhas diretas da tag anterior. */
+div > h3 {
+    background-color: aquamarine;
+}
+
+/* seletores tags entre + seleciona todas tags encontradas na página,
+    que estão localizadas logo após a tag anterior. */
+div + p {
+    background-color: brown;
+}
+
+/* seletores tags entre ~ seleciona todas tags encontradas na página,
+    que estão localizadas após a tag anterior. */
+div ~ p {
+    text-decoration: line-through;
+}
+
+/* seletores de propriedades */
+[width] {
+    color: coral;
+}
+
+/* seletores de propriedades com valores */
+[width="400"] {
+    color: blueviolet;
+}
+
+/* seletores de propriedades que tenham exatamente xyz*/
+[title="xyz"] {
+   color: deeppink;
+}
+
+/* seletores de propriedades que começarem com a letra z*/
+[title^="z"] {
+    color: orange;
+}
+
+/* seletores de propriedades que terminarem com a letra k*/
+[title$="k"] {
+    color: lawngreen;
+}
+
+/* seletores de propriedades que tenham a letra a em qualquer lugar*/
+[title*="a"] {
+    background-color: bisque;
+ }
+
+

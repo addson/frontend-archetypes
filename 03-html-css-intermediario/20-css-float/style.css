@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 5px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+    float: left;
+    margin: 10px;
+}
+
+/* para anular o float */
+p {
+    /* clear: left; */
+    clear: none;
+}

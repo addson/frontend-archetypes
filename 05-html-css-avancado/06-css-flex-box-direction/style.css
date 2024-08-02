@@ -1,0 +1,56 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    padding: 1px;
+    margin: 1px;
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    background-color: red;
+}
+
+.p2 {
+    background-color: blue;
+}
+
+.p3 {
+    background-color: greenyellow;
+}
+
+.parte {
+    width: 70px;
+    height: 70px;
+}
+
+.container-fd-row {
+    margin: 5px;
+    background-color: darkgray;
+    color: white;
+
+    /* display: block; */
+    display: flex;
+    /* passa ser uma grande linha */
+    /* todos os elementos filhos passam a preencher 
+    essa grande linha da esquerda p/ direita... */
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+}
+
+.container-fd-col {
+    margin: 5px;
+    background-color: darkgray;
+    color: white;
+
+    /* display: block; */
+    display: flex;
+    /* passa ser uma grande coluna */
+    /* todos os elementos filhos passam a preencher 
+    essa grande coluna de baixo para cima... */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+}

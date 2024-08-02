@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Horizontal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    Div puro >> Display = Block
+    <div id="quadrado" class="centro"></div>
+    <div id="quadrado" class="esquerda"></div>
+    <div id="quadrado" class="direita"></div>
+    <hr>
+
+    Div do mesmo tamanho da imagem como pai do IMG >> Display = Block
+    <div id="quadrado" class="centro">
+        <img src="cubo.jpg">
+    </div>
+    <div id="quadrado" class="esquerda">
+        <img src="cubo.jpg">
+    </div>
+    <div id="quadrado" class="direita">
+        <img src="cubo.jpg">
+    </div>
+
+    <hr>
+    IMG com Display = Block
+    <img class="imgblock centro" src="cubo.jpg">
+    <img class="imgblock esquerda" src="cubo.jpg">
+    <img class="imgblock direita" src="cubo.jpg">
+
+    <hr>
+    IMG dentro da Div com text-align
+    <div id="icentro">
+        <img src="cubo.jpg">
+    </div>
+    <div id="iesquerda">
+        <img src="cubo.jpg">
+    </div>
+    <div id="idireita">
+        <img src="cubo.jpg">
+    </div>
+
+</body>
+
+</html>

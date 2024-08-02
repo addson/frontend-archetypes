@@ -1,0 +1,49 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+/* tag html - aqui nós definimos todas as variáveis do css*/
+:root {
+    /* --var_color: royalblue; */
+    --var_color: gray;
+
+    --var-font-size: 20px;
+}
+
+.p1{
+    color: var(--var_color);
+    font-size: var(--var-font-size)
+}
+
+.p2{
+    color: var(--var_color);
+    font-size: var(--var-font-size)
+}
+
+.p3{
+    color: var(--var_color);
+    font-size: var(--var-font-size)
+}
+
+.p4{
+    color: var(--var_color);
+    font-size: var(--var-font-size)
+}
+
+.p5{
+    color: var(--var_color);
+    font-size: var(--var-font-size)
+}
+

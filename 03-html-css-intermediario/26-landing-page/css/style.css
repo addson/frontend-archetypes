@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: auto;
+}
+
+header {
+    /* background-color: greenyellow; */
+    background-color: rgb(116, 193, 0);
+    text-align: center;
+    color: floralwhite;
+    padding: 10px;
+}
+
+.title {
+    font-size: 35px;
+    text-shadow: 1px 1px grey;
+}
+
+section {
+    padding: 20px;
+    /* background-image: url('../images/trader-esportivo.jpg'); */
+    background-image: url('../images/test3.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+ul {
+    list-style-type: none;
+    /* list-style-image: url("../images/certo.png"); */
+    /* color: rgb(26, 167, 26); */
+    color: whitesmoke;
+    list-style-position: inside;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+li {
+    border: solid 1px;
+    background-color: rgb(29, 35, 33);
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+.form-container {
+    max-width: 400px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+    margin-right: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.mb {
+    margin-bottom: 13px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    text-shadow: 1px 1px grey;
+    color: floralwhite;
+    /* background-color: greenyellow; */
+    background-color: rgb(116, 193, 0);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer {
+    padding: 15px;
+    font-size: 17px;
+}
+
+.mb-footer {
+    margin-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+}
+
+.hr-footer {
+    margin: 15px;
+    text-align: center;
+}
+
+input[type="button"] {
+    margin: auto;
+    border: none;
+    width: 10%;
+    display: block;
+}
+
+#aceito {
+    /* margin: auto; */
+    border: none;
+    width: 10%;
+    display: block;
+}
+
+#cookies {
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    border-bottom: 0;
+    bottom: 0;
+    left: 0;
+    top: auto;
+    box-shadow: 0 1px 1px #ddebf9;
+    background-color: floralwhite;
+    display: none;
+}
+
+.nao {
+    text-decoration: line-through;
+    color: red;
+}
+
+.link {
+    margin-bottom: 15px;
+    text-align: center;
+    color: gray;
+    padding: 5px;
+}
+
+.link:visited {
+    color: gray;
+}
+
+.link:hover {
+    color: gray;
+}
+
+.link:active {
+    color: royalblue;
+}
+
+@media screen and (max-width: 500px) {
+
+    input[type="button"] {
+        width: 20%;
+    }
+
+    .form-container {
+        margin-right: 0px;
+    }
+
+    #aceito {
+        border: none;
+        width: 30%;
+        display: block;
+    }
+}

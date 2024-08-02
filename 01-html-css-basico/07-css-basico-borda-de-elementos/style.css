@@ -1,0 +1,48 @@
+
+.com-margem {
+    margin-bottom: 5px;
+}
+.com-espessura {
+    border: 2px;
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+}
+.retangulo {
+    width: 200px;
+    height: 50px;
+}
+.circulo {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.vermelho {
+    background-color: red;
+}
+.borda-vermelha {
+    border-color: red;
+}
+
+.continuo {
+    border-style: solid;
+}
+
+.tracejado {
+    border-style: dashed;
+}
+
+.pontilhado {
+    border-style: dotted;
+}
+
+.borda-dupla {
+    border-style: double;
+}
+
+.borda-talhada {
+    border-style: groove;
+}

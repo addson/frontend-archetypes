@@ -1,0 +1,37 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    /* padding: 1px; */
+    /* margin: 1px; */
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+
+    width: 150px;
+    height: 150px;
+    background-color: darkgray;
+
+    /* injetando a animacao no container*/
+    animation-name: mudaCorDeFundo;
+    animation-duration: 5s;
+    animation-delay: 2s;
+
+    /* poderia ser um delay negativo. 
+    Nesse caso a animação já inicia após o segundo segundo de 5. */
+    /* animation-delay: -2s; */
+
+}
+
+/* criando animacao com 4 estados e 2 propriedades*/
+@keyframes mudaCorDeFundo {
+
+    0% {background-color: red; width: 150px;}
+    25% {background-color: green;}
+    50% {background-color: yellow; width: 450px;}
+    100% {background-color: blue; width: 150px;}
+}

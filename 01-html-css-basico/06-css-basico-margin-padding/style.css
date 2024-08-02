@@ -1,0 +1,31 @@
+body {
+    font-size: 20px;
+}
+
+#base-m {
+    height: 10px;
+    background-color: red;
+}
+
+#container-m {
+    background-color: blue;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#base-p {
+    height: 10px;
+    background-color: red;
+}
+
+#container-p {
+    background-color: blue;
+    color: white;
+}
+#conteudo-p {
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-bottom: 10px;
+}

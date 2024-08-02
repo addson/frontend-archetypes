@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 5px;
+    margin: 5px;
+}
+
+.quadro {
+    width: 300px;
+    height: 150px;
+    border: 1px solid grey; 
+    /* poderia ser absolute ou qualquer nao static */
+    position: relative; 
+}
+
+.quadro2 {
+    width: 300px;
+    height: 150px;
+    border: 1px solid grey; 
+    /* poderia ser absolute ou qualquer nao static */
+    position: static; 
+}
+
+.quadrado {
+    width: 50px;
+    height: 50px;
+}
+
+.vermelho {
+    background-color: red;
+}
+.azul {
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+}
+.verde {
+    background-color: green;
+    position: absolute;
+    top: 0px;
+}
+
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Formulários</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="/" method="get">
+
+        <h3>Campos de formulário</h3>
+
+        Nome: <input type="text" name="nome"></input><br>
+        Senha: <input type="password" name="senha"></input><br>
+        Cursos:
+        <input type="checkbox" name="curso" value="op1">Spring</input>
+        <input type="checkbox" name="curso" value="op2">React</input>
+        <input type="checkbox" name="curso" value="op3">Java</input><br>
+        Escolaridade:
+        <input type="radio" name="escolaridade" value="fun" checked>Fundamental</input>
+        <input type="radio" name="escolaridade" value="gra">Graduação</input>
+        <input type="radio" name="escolaridade" value="pos">Pós Graduação<br></input>
+
+        <hr>
+        <select name="estado">
+            <option value="RJ" selected>Rio de Janeiro</option>]
+            <option value="SP">São Paulo</option>
+        </select>
+
+        <select name="estado" size="3">
+            <option value="RJ" selected>Rio de Janeiro</option>]
+            <option value="SP">São Paulo</option>
+            <option value="ES">Espírito Santo</option>
+        </select>
+
+        <select name="estado" size="3" multiple>
+            <option value="5" selected>R$ 5,00</option>]
+            <option value="10">R$ 10,00</option>
+            <option value="50">R$ 50,00</option>
+        </select>
+        <hr>
+
+        Assunto:
+        <input type="text" name="assunto">
+        Menssagem: 
+        <textarea name="mensagem" cols="30" rows="5"></textarea>
+        <hr>
+
+        <h3>HTML 5</h3>
+
+        Paleta de Cores<input type="color" name="color"><br>
+        Data: <input type="date" name="data" max="2022-06-15">
+        Data e Hora: <input type="datetime-local" name="data-hora"><br>
+        Arquivo: <input type="file" name="arquivo"><br>
+        Numérico: <input type="number" name="numero"><br>
+        Intervalo: <input type="range" name="range"><br>
+        Telefone: <input type="tel" name="telefone"><br>
+        Email: <input type="email" name="email">
+        <hr>
+
+        <header>
+            <h3>Tags Semânticas</h3>
+            Cabeçalho
+            <nav>Navegação</nav>
+        </header>
+        <main>Conteúdo</main>
+        <footer>Rodapé</footer>
+        <hr>
+
+        <section>Sessão - muito usado na página principal de um site de notícias.</section>
+        <article>
+            Artigo - Esse conteúdo tem que fazer sentido, 
+            independente da página. Em qualquer lugar.
+        </article>
+
+        <hr>
+
+
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+</body>
+
+</html>

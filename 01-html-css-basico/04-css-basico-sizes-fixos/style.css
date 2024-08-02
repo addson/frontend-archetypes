@@ -1,0 +1,57 @@
+div {
+    background-color:antiquewhite;
+    color: blue;
+}
+
+#sobrescrita-h2{
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+    display: inline-block;
+}
+
+#mm{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+    display: inline-block;
+}
+
+#in{
+    background-color: green;
+    width: 1in;
+    height: 1in;
+    display: inline-block;
+}
+
+#px{
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+}
+
+#pt{
+    background-color: darkorange;
+    width: 10pt;
+    height: 10pt;
+    display: inline-block;
+}
+
+#pc{
+    background-color: darkgrey;
+    width: 1pc;
+    height: 1pc;
+    display: inline-block;
+}
+
+.inline{
+    display: inline;
+}
+
+

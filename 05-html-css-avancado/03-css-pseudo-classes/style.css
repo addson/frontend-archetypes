@@ -1,0 +1,64 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* seletor de tag */
+body {
+    /* font-size: 1.1rem; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* pseudo classe focus - elemento:estado
+permite modificar o estilo do elemento condicionado a algum estado do elemento. */
+input:focus {
+    color: royalblue;
+    font-size: large;
+}
+
+/* pseudo classe first-child - primeiro filho de um elemento - elemento:estado
+permite modificar o estilo do elemento condicionado a algum estado do elemento. */
+li:first-child {
+    color: blue;
+    font-size: large;
+}
+
+/* pseudo classe last-of-type - último filho de um tipo - elemento:estado
+permite modificar o estilo do elemento condicionado a algum estado do elemento. */
+li:last-of-type {
+    color: red;
+    font-size: large;
+}
+
+/* pseudo classe nth-child(2) - segundo filho - elemento:estado
+permite modificar o estilo do elemento condicionado a algum estado do elemento. */
+li:nth-child(2) {
+    color: orange;
+    font-size: large;
+}
+
+/* pseudo classe nth-of-type(3n) - múltiplos de 3 - elemento:estado
+permite modificar o estilo do elemento condicionado a algum estado do elemento. */
+li:nth-child(3n){
+    color: greenyellow;
+    font-size: large;
+}
+
+/* pseudo classe nth-of-type(odd) - elementos ímpares do mesmo tipo - elemento:estado
+permite modificar o estilo do elemento condicionado a algum estado do elemento. */
+li:nth-of-type(odd) {
+    background-color: gray;
+}
+
+/* pseudo classe nth-of-type(odd) - elementos pares do mesmo tipo - elemento:estado
+permite modificar o estilo do elemento condicionado a algum estado do elemento. */
+li:nth-of-type(even) {
+    background-color: gold
+}
+
+
+
+
+

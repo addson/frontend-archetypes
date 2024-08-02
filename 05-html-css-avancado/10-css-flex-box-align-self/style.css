@@ -1,0 +1,48 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    padding: 1px;
+    margin: 1px;
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    background-color: red;
+}
+
+.p2 {
+    background-color: blue;
+}
+
+/* align-self: flex-start; - aplicado somente ao elemnot p3 */
+.p3-align-self {
+    background-color: greenyellow;
+    align-self: flex-start;
+}
+
+.parte {
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    height: 100px;
+
+    margin: 5px;
+    background-color: darkgray;
+    color: white;
+
+    /* display: block; */
+    display: flex;
+    /* passa ser uma grande linha e todos os elementos filhos passam a preencher 
+    essa grande linha da esquerda p/ direita... */
+    flex-direction: row;
+
+    align-items: center;
+}
+
+

@@ -1,0 +1,28 @@
+p {
+    color: rgb(30, 250, 200);
+    font-size: xx-large;
+}
+
+div {
+    color: white;
+    background-color: royalblue;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#div-01{
+    color: azure;
+    background-color: crimson;
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#principal {
+    color: gray;
+    font-family: Arial;
+    font-size: 30px;
+}
+
+.classe-x {
+    color: blueviolet;
+}

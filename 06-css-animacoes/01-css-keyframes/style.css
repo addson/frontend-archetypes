@@ -1,0 +1,30 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    /* padding: 1px; */
+    /* margin: 1px; */
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+
+    width: 150px;
+    height: 150px;
+    background-color: darkgray;
+
+    /* injetando a animacao no container */
+    animation-name: mudaCorDeFundo;
+    animation-duration: 3s;
+
+}
+
+/* criando animacao com apenas 2 estados*/
+@keyframes mudaCorDeFundo {
+
+    from {background-color: blue;}
+    to {background-color: red;}
+}

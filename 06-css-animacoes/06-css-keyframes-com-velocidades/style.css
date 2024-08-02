@@ -1,0 +1,49 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    /* padding: 1px; */
+    /* margin: 1px; */
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+
+    width: 150px;
+    height: 30px;
+    background-color: darkgray;
+
+    /* injetando a animacao no container*/
+    animation-name: mudaCorDeFundo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    /* para evitar interrupções do último para o primeiro estado
+    (ex: do azul para o vermelho) usamos o animation-direction: alternate; 
+    assim a proxima iteração inicia no estado final da última iteracao*/
+    animation-direction: alternate;
+}
+
+/* criando animacao com 4 estados e 2 propriedades*/
+@keyframes mudaCorDeFundo {
+
+    0% {background-color: red; width: 150px;}
+    25% {background-color: green;}
+    50% {background-color: yellow; width: 450px;}
+    100% {background-color: blue; width: 150px;}
+}
+
+.v1 {
+    animation-timing-function: linear;
+}
+
+.v2 {
+    animation-timing-function: ease;
+}
+
+.v3 {
+    animation-timing-function: ease-in-out
+}

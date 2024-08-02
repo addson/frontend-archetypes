@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div style="background-color: blue;">
+        Teste de Display da div com outra div interna 
+        <div style="background-color: rgb(87, 87, 151);">
+            ...Isso acontece porque o display padrão da tag div é 
+            <strong>block</strong>. E como regra geral, nunca devemos 
+            colocar qualquer elemento do tipo block dentro de qualquer 
+            outro elemento que seja também do tipo block, porque 
+            o display block, quebra o fluxo do elemento pai.
+        </div>
+    </div>
+    
+    <p></p>
+    <div style="background-color: red">
+        Teste de Display da div com 1 parágrafo interno 
+        <p style="background-color: rgb(142, 75, 75);
+        margin: 0;">
+            ...Isso acontece porque o display padrão da tag p é 
+            <strong>block</strong>. Esse espaço acima acontece
+            porque o parágrafo vem com uma margem. 
+            Mas podemos remover essa margem com o estilo margin: 0;. 
+        </p>
+    </div>
+
+    <p></p>
+    <div style="background-color: yellow">
+        Teste de Display da div com 1 span interno 
+        <span style="background-color: rgb(142, 142, 76);
+        /* display: none; */  /*Caso eu não queira que o span apareça... */ 
+        display: inline-block;   
+        width: 200px;"> <!-- so com o display: inline-block; o width funciona -->
+            ...Isso acontece porque o display padrão da tag span é 
+            <strong>inline</strong>. Aqui NÃO conseguimos modificar 
+            nem a largura nem a altura do elemento. 
+            A não ser quebraadicionemos display inline-block para essa tag span.
+        </span>
+    </div>
+
+    <p></p>
+    <p style="background-color: rgb(11, 237, 11)">
+        Teste de Display de um parágrafo com 1 div interna 
+        <div style="background-color: rgb(59, 110, 59);
+        height: 50px; width: 500px;">
+            ...Isso acontece porque o display padrão da tag div é 
+            <strong>block</strong>. Aqui conseguimos SIM modificar 
+            a largura e a altura do elemento. 
+        
+        </div>
+    </p>
+    
+
+</body>
+</html>

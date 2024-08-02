@@ -1,0 +1,24 @@
+
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+
+p {
+    color: red;
+    text-align: justify;
+    text-transform: capitalize;
+    text-indent: 35px;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: line-through;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    word-spacing: 3px;
+    text-shadow: 1px 1px grey;
+}
+
+a{
+    text-decoration: none;
+}

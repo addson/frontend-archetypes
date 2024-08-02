@@ -1,0 +1,49 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: red;
+}
+
+/* seletor de tag */
+body {
+    /* font-size: 1.1rem; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    background-color: blue;
+}
+
+/*  display: inline-block nos força a dar esta marretada 
+margin-right: -4px; margin-bottom: -4px; */
+.primeira {
+    margin-right: -4px;
+    margin-bottom: -4px;
+    width: calc(100% - 200px);
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+/*  display: inline-block nos força a dar esta marretada 
+margin-right: -4px; margin-bottom: -4px; */ 
+.segunda {
+    margin-right: -4px;
+    margin-bottom: -4px;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: inline-block;
+}
+
+/* a distancia lateral a e esquerda e a direira do botão nao muda de largura
+vai ser sempre 150px de cada lado, independente do tamnho da janela */
+.botao-fixo-centralizado {
+    width: calc(100% - 300px);
+    height: 70px;
+    background-color: aqua;
+    margin: auto;
+}

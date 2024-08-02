@@ -1,0 +1,46 @@
+
+/* * é o seletor de todos os elementos da página */
+* {
+    /* padding: 1px; */
+    /* margin: 1px; */
+}
+
+/* seletor de tag */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+
+    width: 150px;
+    height: 150px;
+    background-color: darkgray;
+
+    /* injetando a animacao no container*/
+    animation-name: mudaCorDeFundo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    /* para evitar interrupções do último para o primeiro estado
+    (ex: do azul para o vermelho) usamos o animation-direction: alternate; 
+    assim a proxima iteração inicia no estado final da última iteracao*/
+    animation-direction: alternate;
+
+    /* poderia repetir apenas 2 vezes. */
+    /* animation-iteration-count: 2; */
+
+    /* caso não houvesse repetição eu poderia querer evitar os estados
+    anterior ao inicio da animação e após o fim da animação.
+    mas isso só faz sentido quando não usamos o animation-iteration-count: */
+    /* animation-fill-mode: both; */
+
+}
+
+/* criando animacao com 4 estados e 2 propriedades*/
+@keyframes mudaCorDeFundo {
+
+    0% {background-color: red; width: 150px;}
+    25% {background-color: green;}
+    50% {background-color: yellow; width: 450px;}
+    100% {background-color: blue; width: 150px;}
+}

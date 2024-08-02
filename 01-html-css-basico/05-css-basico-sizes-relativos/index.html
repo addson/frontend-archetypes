@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>
+        (em) - Unidade de medida relativa ao font-size atual do próprio elemento selecionado
+        <br>ou relativa ao font-size do elemento herdado (body)
+    </h2>
+
+    Texto no Body (20px ou 1em)
+    <p></p>
+
+    <div class="container-font-size-em">
+        Container Externo mudando o font-size (1em)
+        <div class="insider-font-size-em">
+            Container Interno mudando o font-size (2em)
+        </div>
+    </div>
+    <p></p>
+
+    <div class="container-width-em">
+        Container Externo mudando o width (10em)
+        <div class="insider-width-em">
+            Container Interno mudando o width (5em)
+        </div>
+    </div>
+    <p></p>
+
+    <hr> <!-- proximo teste -->
+    <h2>
+        (rem) - Unidade de medida relativa ao font-size atual do elemento raiz (tag html)
+        <br> O font-size da tag html é 30, logo...
+    </h2>
+
+    <div class="container-width-rem">
+        Container Externo mudando o width (10 rem)
+        <div class="insider-width-rem">
+            Container Interno mudando o width (5 rem)
+        </div>
+    </div>
+    <p></p>
+
+    <hr> <!-- proximo teste -->
+    <h2>
+        (%) - Unidade de medida relativa ao tamanho da mesma propriedade no elemento pai
+    </h2>
+
+    <div class="container-width-percentual">
+        Container Externo mudando o width (50 % = 50% do width do body)
+        <div class="insider-width-percentual">
+            Container Interno mudando o width (50 % = 50% do width do div externo)
+        </div>
+    </div>
+    <p></p>
+
+    <hr> <!-- proximo teste -->
+    <h2>
+        (vw) - Unidade de medida relativa a largura da nossa janela
+    </h2>
+
+    <div class="container-width-vw">
+        Container Externo mudando o width (10 vw = 10% da largura da janela)
+        <div class="insider-width-vw">
+            Container Interno mudando o width (5 vw = 5% da largura da janela)
+        </div>
+    </div>
+    <p></p>
+
+    <hr> <!-- proximo teste -->
+    <h2>
+        (vh) - Unidade de medida relativa a largura da nossa janela
+    </h2>
+
+    <div class="container-width-vh">
+        Container Externo mudando o width (10 vh = 10% da altura da janela)
+        <div class="insider-width-vh">
+            Container Interno mudando o width (5 vh = 5% da altura da janela)
+        </div>
+    </div>
+    <p></p>
+
+    <hr> <!-- proximo teste -->
+    <h2>
+        (vmax) - Unidade de medida relativa a maior dimensão da nossa janela
+    </h2>
+
+    <div class="container-width-vmax">
+        Container Externo mudando o width (10 vmax = 10% da maior dimensão da janela)
+        <div class="insider-width-vmax">
+            Container Interno mudando o width (5 vmax = 5% da maior dimensão da janela)
+        </div>
+    </div>
+    <p></p>
+
+    <hr> <!-- proximo teste -->
+    <h2>
+        (vmin) - Unidade de medida relativa a maior dimensão da nossa janela
+    </h2>
+
+    <div class="container-width-vmin">
+        Container Externo mudando o width (10 vmin = 10% da menor dimensão da janela)
+        <div class="insider-width-vmin">
+            Container Interno mudando o width (5 vmin = 5% da menor dimensão da janela)
+        </div>
+    </div>
+    <p></p>
+
+    
+    
+</body>
+</html>

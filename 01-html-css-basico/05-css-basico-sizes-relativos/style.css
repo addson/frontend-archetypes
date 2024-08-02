@@ -1,0 +1,77 @@
+body {
+    font-size: 20px;
+}
+
+html{
+    font-size: 30px;
+}
+
+.container-font-size-em {
+    font-size: 1em;
+}
+.insider-font-size-em {
+    font-size: 2em;
+}
+
+.container-width-em {
+    width: 10em;
+    background-color: aqua;
+}
+.insider-width-em {
+    width: 5em;
+    background-color: blueviolet;
+}
+
+.container-width-rem {
+    width: 10rem;
+    background-color: aqua;
+}
+.insider-width-rem {
+    width: 5rem;
+    background-color: blueviolet;
+}
+
+.container-width-percentual {
+    width: 50%;
+    background-color: aqua;
+}
+.insider-width-percentual {
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.container-width-vw {
+    width: 10vw;
+    background-color: aqua;
+}
+.insider-width-vw {
+    width: 5vw;
+    background-color: blueviolet;
+}
+
+.container-width-vh {
+    width: 10vh;
+    background-color: aqua;
+}
+.insider-width-vh {
+    width: 5vh;
+    background-color: blueviolet;
+}
+
+.container-width-vmax {
+    width: 10vmax;
+    background-color: aqua;
+}
+.insider-width-vmax {
+    width: 5vmax;
+    background-color: blueviolet;
+}
+
+.container-width-vmin {
+    width: 10vmin;
+    background-color: aqua;
+}
+.insider-width-vmin {
+    width: 5vmin;
+    background-color: blueviolet;
+}
